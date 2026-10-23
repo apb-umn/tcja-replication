@@ -54,7 +54,7 @@ tcja_replication/
 │   └── section4/code/theory_calibration.jl      Table 9 (Julia)
 ├── reference/
 │   ├── clean_rebuild/              paper/Inputs + PDF as produced by THIS package on the authors' machine
-│   └── nber_draft/                 paper/Inputs + PDF as sent to NBER (differs in one sentence, see §6)
+│   └── nber_draft/                 paper/Inputs + PDF as sent to NBER (differs in two sentences, see §6)
 └── tools/make_shareable_panel.py   how the shareable CSV was made from the authors' panel (for transparency)
 ```
 
@@ -300,25 +300,36 @@ sample screen that drops financial firms) is the single function in
 ## 6. Known differences from the NBER PDF
 
 `reference/nber_draft/` is what was submitted. A clean rebuild
-(`reference/clean_rebuild/`, and what you will get) differs in:
+(`reference/clean_rebuild/`, and what you will get) differs in two printed
+sentences and in some inputs the paper does not print:
 
 1. **§3.2.4, the windfall-control robustness sentence.** The NBER draft prints
    "0.760 (0.172) without the windfall control and 0.760 (0.173) with it"; the
    rebuild gives 0.749 (0.157) and 0.750 (0.158). The submitted numbers came
-   from an intermediate file that predated two code fixes (September 5–6, 2026);
-   the conclusion ("essentially unchanged") is the same. The rebuild is the
-   correct one.
-2. `tables/theory_calibration.csv`: five auxiliary keys (`betaPpeShare*`,
+   from an intermediate file written before the September 5, 2026 change that
+   keeps 2016 in the pooled DiD; re-running the windfall script with 2016
+   excluded again reproduces that file exactly. The conclusion ("essentially
+   unchanged") is the same, and the rebuild is the correct one.
+2. **Section 4, the pre-TCJA shifted-share range.** The NBER draft used a
+   post-TCJA macro as the upper bound and printed "25 to 11"; the corrected
+   `paper/tcja_draft5.tex` uses `\GShiftedPreStatZero` and prints "25 to 28".
+3. `tables/theory_calibration.csv`: five auxiliary keys (`betaPpeShare*`,
    `betaLogRd`) differ; none is printed in the paper.
-3. `slide_data/samplesanddescriptive.csv` has one extra key
+4. `slide_data/samplesanddescriptive.csv` has one extra key
    (`passthroughLeakagePct`), defined but not printed.
-4. `slide_data/cashandcapital.csv` (slides only): the cash-ETR pass-through
+5. `slide_data/cashandcapital.csv` (slides only): the cash-ETR pass-through
    block is refreshed.
-5. `slide_data/samplesanddescriptive.csv` (slides only): five keys
+6. `slide_data/samplesanddescriptive.csv` (slides only): five keys
    (`balanceRuleBeta*`, `incomeLocPerPp*`) change because two robustness
    files (`balance_ge1_ge1_comparison.csv`, `ratio_sum_treatment_diagnostics.csv`)
    dated July 2026 in the authors' repository are regenerated here on the
    current panel. The paper does not print them.
+
+Items 1 and 3–6 all have the same cause: on September 5, 2026 the pooled-DiD
+sample gained 2016 and the real-activity post window became 2019–2022, and
+several scripts that import those definitions were not re-run. The authors'
+repository was brought up to date on October 23, 2026, so its `paper/Inputs`
+now matches `reference/clean_rebuild/` exactly.
 
 What to expect from `compare_to_reference.py` (against `clean_rebuild`):
 * with `compustat_data.csv`, `compustat_segments.csv` and the Exhibit 21 files from
@@ -328,10 +339,6 @@ What to expect from `compare_to_reference.py` (against `clean_rebuild`):
   differ as described in §4.3. The compiled PDF then differs from the full-data
   PDF only in the blank rows of Table B.2 and in the Appendix B sentence that
   quotes the two subsidiary coefficients (it prints empty parentheses).
-
-Known typo in the submitted draft: in Section 4 the pre-TCJA shifted-share
-range is printed with a post-TCJA macro as its upper bound ("25 to 11"); the
-intended range is 25 to 28 percent (`\GShiftedPreStatZero`).
 
 ---
 
