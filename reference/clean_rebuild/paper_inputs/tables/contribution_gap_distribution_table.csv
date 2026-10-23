@@ -1,0 +1,17 @@
+table_id,period,period_label,row_order,row_key,row_label,source_group,counts,average,p25,median,p75
+contribution_gap_distribution,pre,Pre-TCJA,1,total_gap,Total Gap,,10602,-7.496996,-12.400000,-4.327957,1.000000
+contribution_gap_distribution,pre,Pre-TCJA,2,international,International,International,5283,-4.846045,-9.600000,-4.000000,-0.900000
+contribution_gap_distribution,pre,Pre-TCJA,3,one_time,One time,TCJA one-time,949,0.573879,-1.000000,0.100000,2.000000
+contribution_gap_distribution,pre,Pre-TCJA,4,federal_credits,Federal credits,Federal credits,4767,-2.622346,-3.300000,-1.800000,-0.903874
+contribution_gap_distribution,pre,Pre-TCJA,5,state_local,State & local,State & local,9614,1.780934,0.876917,1.800000,2.800000
+contribution_gap_distribution,pre,Pre-TCJA,6,valuation,Valuation,Reserves & losses,6942,-1.069983,-2.583890,-0.153846,1.346154
+contribution_gap_distribution,pre,Pre-TCJA,7,book_v_tax,Book v. Tax,Permanent items,6625,0.180084,-1.784899,0.200000,1.600000
+contribution_gap_distribution,pre,Pre-TCJA,8,other,Other,Other,9108,-1.575118,-2.901820,-0.700000,0.300000
+contribution_gap_distribution,post,Post-TCJA,1,total_gap,Total Gap,,14720,-2.092622,-6.200000,0.287188,3.700000
+contribution_gap_distribution,post,Post-TCJA,2,international,International,International,7628,-0.504762,-3.300000,-0.494118,1.400000
+contribution_gap_distribution,post,Post-TCJA,3,one_time,One time,TCJA one-time,2394,-0.297431,-0.600000,-0.100478,0.400000
+contribution_gap_distribution,post,Post-TCJA,4,federal_credits,Federal credits,Federal credits,7319,-2.076489,-2.802469,-1.400000,-0.800000
+contribution_gap_distribution,post,Post-TCJA,5,state_local,State & local,State & local,13432,2.173018,1.000000,2.200000,3.374616
+contribution_gap_distribution,post,Post-TCJA,6,valuation,Valuation,Reserves & losses,11128,-0.499786,-1.700000,0.100000,1.667832
+contribution_gap_distribution,post,Post-TCJA,7,book_v_tax,Book v. Tax,Permanent items,11765,-0.338218,-1.800000,-0.444842,1.000000
+contribution_gap_distribution,post,Post-TCJA,8,other,Other,Other,12971,-0.788062,-1.850220,-0.213210,0.600000

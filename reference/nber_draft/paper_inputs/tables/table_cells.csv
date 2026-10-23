@@ -1,0 +1,151 @@
+table_id,period,period_label,row_order,row_key,row_label,stat_key,stat_label,value
+industry_gap_distribution,pre,Pre-TCJA,1,tech,Tech,counts,Counts,1644.000000
+industry_gap_distribution,pre,Pre-TCJA,1,tech,Tech,average,Average,-16.342403
+industry_gap_distribution,pre,Pre-TCJA,1,tech,Tech,p25,25th,-19.265169
+industry_gap_distribution,pre,Pre-TCJA,1,tech,Tech,median,50th,-14.700000
+industry_gap_distribution,pre,Pre-TCJA,1,tech,Tech,p75,75th,-8.400000
+industry_gap_distribution,pre,Pre-TCJA,2,pharma_biotech,Pharma/Biotech,counts,Counts,906.000000
+industry_gap_distribution,pre,Pre-TCJA,2,pharma_biotech,Pharma/Biotech,average,Average,-14.803049
+industry_gap_distribution,pre,Pre-TCJA,2,pharma_biotech,Pharma/Biotech,p25,25th,-19.300000
+industry_gap_distribution,pre,Pre-TCJA,2,pharma_biotech,Pharma/Biotech,median,50th,-14.675269
+industry_gap_distribution,pre,Pre-TCJA,2,pharma_biotech,Pharma/Biotech,p75,75th,-9.900000
+industry_gap_distribution,pre,Pre-TCJA,3,manufacturing,Manufacturing,counts,Counts,3307.000000
+industry_gap_distribution,pre,Pre-TCJA,3,manufacturing,Manufacturing,average,Average,-10.910435
+industry_gap_distribution,pre,Pre-TCJA,3,manufacturing,Manufacturing,p25,25th,-14.630073
+industry_gap_distribution,pre,Pre-TCJA,3,manufacturing,Manufacturing,median,50th,-8.631403
+industry_gap_distribution,pre,Pre-TCJA,3,manufacturing,Manufacturing,p75,75th,-2.990256
+industry_gap_distribution,pre,Pre-TCJA,4,oil_and_gas,Oil & Gas,counts,Counts,412.000000
+industry_gap_distribution,pre,Pre-TCJA,4,oil_and_gas,Oil & Gas,average,Average,-5.321403
+industry_gap_distribution,pre,Pre-TCJA,4,oil_and_gas,Oil & Gas,p25,25th,-6.200000
+industry_gap_distribution,pre,Pre-TCJA,4,oil_and_gas,Oil & Gas,median,50th,-1.401575
+industry_gap_distribution,pre,Pre-TCJA,4,oil_and_gas,Oil & Gas,p75,75th,3.100000
+industry_gap_distribution,pre,Pre-TCJA,5,retail,Retail,counts,Counts,798.000000
+industry_gap_distribution,pre,Pre-TCJA,5,retail,Retail,average,Average,-2.270951
+industry_gap_distribution,pre,Pre-TCJA,5,retail,Retail,p25,25th,-4.700000
+industry_gap_distribution,pre,Pre-TCJA,5,retail,Retail,median,50th,-0.662983
+industry_gap_distribution,pre,Pre-TCJA,5,retail,Retail,p75,75th,1.900000
+industry_gap_distribution,pre,Pre-TCJA,6,utilities,Utilities,counts,Counts,445.000000
+industry_gap_distribution,pre,Pre-TCJA,6,utilities,Utilities,average,Average,-6.861404
+industry_gap_distribution,pre,Pre-TCJA,6,utilities,Utilities,p25,25th,-9.200000
+industry_gap_distribution,pre,Pre-TCJA,6,utilities,Utilities,median,50th,-2.100000
+industry_gap_distribution,pre,Pre-TCJA,6,utilities,Utilities,p75,75th,2.300000
+industry_gap_distribution,pre,Pre-TCJA,7,other,Other,counts,Counts,3090.000000
+industry_gap_distribution,pre,Pre-TCJA,7,other,Other,average,Average,-4.649737
+industry_gap_distribution,pre,Pre-TCJA,7,other,Other,p25,25th,-7.553679
+industry_gap_distribution,pre,Pre-TCJA,7,other,Other,median,50th,-1.792841
+industry_gap_distribution,pre,Pre-TCJA,7,other,Other,p75,75th,2.100000
+industry_gap_distribution,post,Post-TCJA,1,tech,Tech,counts,Counts,2349.000000
+industry_gap_distribution,post,Post-TCJA,1,tech,Tech,average,Average,-8.884658
+industry_gap_distribution,post,Post-TCJA,1,tech,Tech,p25,25th,-11.600000
+industry_gap_distribution,post,Post-TCJA,1,tech,Tech,median,50th,-5.324689
+industry_gap_distribution,post,Post-TCJA,1,tech,Tech,p75,75th,-2.000000
+industry_gap_distribution,post,Post-TCJA,2,pharma_biotech,Pharma/Biotech,counts,Counts,1852.000000
+industry_gap_distribution,post,Post-TCJA,2,pharma_biotech,Pharma/Biotech,average,Average,-10.189727
+industry_gap_distribution,post,Post-TCJA,2,pharma_biotech,Pharma/Biotech,p25,25th,-13.400000
+industry_gap_distribution,post,Post-TCJA,2,pharma_biotech,Pharma/Biotech,median,50th,-9.335361
+industry_gap_distribution,post,Post-TCJA,2,pharma_biotech,Pharma/Biotech,p75,75th,-3.400000
+industry_gap_distribution,post,Post-TCJA,3,manufacturing,Manufacturing,counts,Counts,4347.000000
+industry_gap_distribution,post,Post-TCJA,3,manufacturing,Manufacturing,average,Average,-2.965220
+industry_gap_distribution,post,Post-TCJA,3,manufacturing,Manufacturing,p25,25th,-6.900000
+industry_gap_distribution,post,Post-TCJA,3,manufacturing,Manufacturing,median,50th,-1.700000
+industry_gap_distribution,post,Post-TCJA,3,manufacturing,Manufacturing,p75,75th,2.370302
+industry_gap_distribution,post,Post-TCJA,4,oil_and_gas,Oil & Gas,counts,Counts,465.000000
+industry_gap_distribution,post,Post-TCJA,4,oil_and_gas,Oil & Gas,average,Average,3.288213
+industry_gap_distribution,post,Post-TCJA,4,oil_and_gas,Oil & Gas,p25,25th,-1.000000
+industry_gap_distribution,post,Post-TCJA,4,oil_and_gas,Oil & Gas,median,50th,3.448239
+industry_gap_distribution,post,Post-TCJA,4,oil_and_gas,Oil & Gas,p75,75th,7.257819
+industry_gap_distribution,post,Post-TCJA,5,retail,Retail,counts,Counts,1003.000000
+industry_gap_distribution,post,Post-TCJA,5,retail,Retail,average,Average,1.079344
+industry_gap_distribution,post,Post-TCJA,5,retail,Retail,p25,25th,-1.605902
+industry_gap_distribution,post,Post-TCJA,5,retail,Retail,median,50th,2.700000
+industry_gap_distribution,post,Post-TCJA,5,retail,Retail,p75,75th,4.400000
+industry_gap_distribution,post,Post-TCJA,6,utilities,Utilities,counts,Counts,527.000000
+industry_gap_distribution,post,Post-TCJA,6,utilities,Utilities,average,Average,-8.244966
+industry_gap_distribution,post,Post-TCJA,6,utilities,Utilities,p25,25th,-15.584681
+industry_gap_distribution,post,Post-TCJA,6,utilities,Utilities,median,50th,-7.000000
+industry_gap_distribution,post,Post-TCJA,6,utilities,Utilities,p75,75th,0.000000
+industry_gap_distribution,post,Post-TCJA,7,other,Other,counts,Counts,4177.000000
+industry_gap_distribution,post,Post-TCJA,7,other,Other,average,Average,-0.520836
+industry_gap_distribution,post,Post-TCJA,7,other,Other,p25,25th,-2.084838
+industry_gap_distribution,post,Post-TCJA,7,other,Other,median,50th,1.335841
+industry_gap_distribution,post,Post-TCJA,7,other,Other,p75,75th,4.300000
+contribution_gap_distribution,pre,Pre-TCJA,1,total_gap,Total Gap,counts,Counts,10602.000000
+contribution_gap_distribution,pre,Pre-TCJA,1,total_gap,Total Gap,average,Average,-7.496996
+contribution_gap_distribution,pre,Pre-TCJA,1,total_gap,Total Gap,p25,25th,-12.400000
+contribution_gap_distribution,pre,Pre-TCJA,1,total_gap,Total Gap,median,50th,-4.327957
+contribution_gap_distribution,pre,Pre-TCJA,1,total_gap,Total Gap,p75,75th,1.000000
+contribution_gap_distribution,pre,Pre-TCJA,2,international,International,counts,Counts,5283.000000
+contribution_gap_distribution,pre,Pre-TCJA,2,international,International,average,Average,-4.846045
+contribution_gap_distribution,pre,Pre-TCJA,2,international,International,p25,25th,-9.600000
+contribution_gap_distribution,pre,Pre-TCJA,2,international,International,median,50th,-4.000000
+contribution_gap_distribution,pre,Pre-TCJA,2,international,International,p75,75th,-0.900000
+contribution_gap_distribution,pre,Pre-TCJA,3,one_time,One time,counts,Counts,949.000000
+contribution_gap_distribution,pre,Pre-TCJA,3,one_time,One time,average,Average,0.573879
+contribution_gap_distribution,pre,Pre-TCJA,3,one_time,One time,p25,25th,-1.000000
+contribution_gap_distribution,pre,Pre-TCJA,3,one_time,One time,median,50th,0.100000
+contribution_gap_distribution,pre,Pre-TCJA,3,one_time,One time,p75,75th,2.000000
+contribution_gap_distribution,pre,Pre-TCJA,4,federal_credits,Federal credits,counts,Counts,4767.000000
+contribution_gap_distribution,pre,Pre-TCJA,4,federal_credits,Federal credits,average,Average,-2.622346
+contribution_gap_distribution,pre,Pre-TCJA,4,federal_credits,Federal credits,p25,25th,-3.300000
+contribution_gap_distribution,pre,Pre-TCJA,4,federal_credits,Federal credits,median,50th,-1.800000
+contribution_gap_distribution,pre,Pre-TCJA,4,federal_credits,Federal credits,p75,75th,-0.903874
+contribution_gap_distribution,pre,Pre-TCJA,5,state_local,State & local,counts,Counts,9614.000000
+contribution_gap_distribution,pre,Pre-TCJA,5,state_local,State & local,average,Average,1.780934
+contribution_gap_distribution,pre,Pre-TCJA,5,state_local,State & local,p25,25th,0.876917
+contribution_gap_distribution,pre,Pre-TCJA,5,state_local,State & local,median,50th,1.800000
+contribution_gap_distribution,pre,Pre-TCJA,5,state_local,State & local,p75,75th,2.800000
+contribution_gap_distribution,pre,Pre-TCJA,6,valuation,Valuation,counts,Counts,6942.000000
+contribution_gap_distribution,pre,Pre-TCJA,6,valuation,Valuation,average,Average,-1.069983
+contribution_gap_distribution,pre,Pre-TCJA,6,valuation,Valuation,p25,25th,-2.583890
+contribution_gap_distribution,pre,Pre-TCJA,6,valuation,Valuation,median,50th,-0.153846
+contribution_gap_distribution,pre,Pre-TCJA,6,valuation,Valuation,p75,75th,1.346154
+contribution_gap_distribution,pre,Pre-TCJA,7,book_v_tax,Book v. Tax,counts,Counts,6625.000000
+contribution_gap_distribution,pre,Pre-TCJA,7,book_v_tax,Book v. Tax,average,Average,0.180084
+contribution_gap_distribution,pre,Pre-TCJA,7,book_v_tax,Book v. Tax,p25,25th,-1.784899
+contribution_gap_distribution,pre,Pre-TCJA,7,book_v_tax,Book v. Tax,median,50th,0.200000
+contribution_gap_distribution,pre,Pre-TCJA,7,book_v_tax,Book v. Tax,p75,75th,1.600000
+contribution_gap_distribution,pre,Pre-TCJA,8,other,Other,counts,Counts,9108.000000
+contribution_gap_distribution,pre,Pre-TCJA,8,other,Other,average,Average,-1.575118
+contribution_gap_distribution,pre,Pre-TCJA,8,other,Other,p25,25th,-2.901820
+contribution_gap_distribution,pre,Pre-TCJA,8,other,Other,median,50th,-0.700000
+contribution_gap_distribution,pre,Pre-TCJA,8,other,Other,p75,75th,0.300000
+contribution_gap_distribution,post,Post-TCJA,1,total_gap,Total Gap,counts,Counts,14720.000000
+contribution_gap_distribution,post,Post-TCJA,1,total_gap,Total Gap,average,Average,-2.092622
+contribution_gap_distribution,post,Post-TCJA,1,total_gap,Total Gap,p25,25th,-6.200000
+contribution_gap_distribution,post,Post-TCJA,1,total_gap,Total Gap,median,50th,0.287188
+contribution_gap_distribution,post,Post-TCJA,1,total_gap,Total Gap,p75,75th,3.700000
+contribution_gap_distribution,post,Post-TCJA,2,international,International,counts,Counts,7628.000000
+contribution_gap_distribution,post,Post-TCJA,2,international,International,average,Average,-0.504762
+contribution_gap_distribution,post,Post-TCJA,2,international,International,p25,25th,-3.300000
+contribution_gap_distribution,post,Post-TCJA,2,international,International,median,50th,-0.494118
+contribution_gap_distribution,post,Post-TCJA,2,international,International,p75,75th,1.400000
+contribution_gap_distribution,post,Post-TCJA,3,one_time,One time,counts,Counts,2394.000000
+contribution_gap_distribution,post,Post-TCJA,3,one_time,One time,average,Average,-0.297431
+contribution_gap_distribution,post,Post-TCJA,3,one_time,One time,p25,25th,-0.600000
+contribution_gap_distribution,post,Post-TCJA,3,one_time,One time,median,50th,-0.100478
+contribution_gap_distribution,post,Post-TCJA,3,one_time,One time,p75,75th,0.400000
+contribution_gap_distribution,post,Post-TCJA,4,federal_credits,Federal credits,counts,Counts,7319.000000
+contribution_gap_distribution,post,Post-TCJA,4,federal_credits,Federal credits,average,Average,-2.076489
+contribution_gap_distribution,post,Post-TCJA,4,federal_credits,Federal credits,p25,25th,-2.802469
+contribution_gap_distribution,post,Post-TCJA,4,federal_credits,Federal credits,median,50th,-1.400000
+contribution_gap_distribution,post,Post-TCJA,4,federal_credits,Federal credits,p75,75th,-0.800000
+contribution_gap_distribution,post,Post-TCJA,5,state_local,State & local,counts,Counts,13432.000000
+contribution_gap_distribution,post,Post-TCJA,5,state_local,State & local,average,Average,2.173018
+contribution_gap_distribution,post,Post-TCJA,5,state_local,State & local,p25,25th,1.000000
+contribution_gap_distribution,post,Post-TCJA,5,state_local,State & local,median,50th,2.200000
+contribution_gap_distribution,post,Post-TCJA,5,state_local,State & local,p75,75th,3.374616
+contribution_gap_distribution,post,Post-TCJA,6,valuation,Valuation,counts,Counts,11128.000000
+contribution_gap_distribution,post,Post-TCJA,6,valuation,Valuation,average,Average,-0.499786
+contribution_gap_distribution,post,Post-TCJA,6,valuation,Valuation,p25,25th,-1.700000
+contribution_gap_distribution,post,Post-TCJA,6,valuation,Valuation,median,50th,0.100000
+contribution_gap_distribution,post,Post-TCJA,6,valuation,Valuation,p75,75th,1.667832
+contribution_gap_distribution,post,Post-TCJA,7,book_v_tax,Book v. Tax,counts,Counts,11765.000000
+contribution_gap_distribution,post,Post-TCJA,7,book_v_tax,Book v. Tax,average,Average,-0.338218
+contribution_gap_distribution,post,Post-TCJA,7,book_v_tax,Book v. Tax,p25,25th,-1.800000
+contribution_gap_distribution,post,Post-TCJA,7,book_v_tax,Book v. Tax,median,50th,-0.444842
+contribution_gap_distribution,post,Post-TCJA,7,book_v_tax,Book v. Tax,p75,75th,1.000000
+contribution_gap_distribution,post,Post-TCJA,8,other,Other,counts,Counts,12971.000000
+contribution_gap_distribution,post,Post-TCJA,8,other,Other,average,Average,-0.788062
+contribution_gap_distribution,post,Post-TCJA,8,other,Other,p25,25th,-1.850220
+contribution_gap_distribution,post,Post-TCJA,8,other,Other,median,50th,-0.213210
+contribution_gap_distribution,post,Post-TCJA,8,other,Other,p75,75th,0.600000

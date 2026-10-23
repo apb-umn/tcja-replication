@@ -1,0 +1,15 @@
+table_id,period,period_label,row_order,row_key,row_label,source_group,counts,average,p25,median,p75
+industry_gap_distribution,pre,Pre-TCJA,1,tech,Tech,,1644,-16.342403,-19.265169,-14.700000,-8.400000
+industry_gap_distribution,pre,Pre-TCJA,2,pharma_biotech,Pharma/Biotech,,906,-14.803049,-19.300000,-14.675269,-9.900000
+industry_gap_distribution,pre,Pre-TCJA,3,manufacturing,Manufacturing,,3307,-10.910435,-14.630073,-8.631403,-2.990256
+industry_gap_distribution,pre,Pre-TCJA,4,oil_and_gas,Oil & Gas,,412,-5.321403,-6.200000,-1.401575,3.100000
+industry_gap_distribution,pre,Pre-TCJA,5,retail,Retail,,798,-2.270951,-4.700000,-0.662983,1.900000
+industry_gap_distribution,pre,Pre-TCJA,6,utilities,Utilities,,445,-6.861404,-9.200000,-2.100000,2.300000
+industry_gap_distribution,pre,Pre-TCJA,7,other,Other,,3090,-4.649737,-7.553679,-1.792841,2.100000
+industry_gap_distribution,post,Post-TCJA,1,tech,Tech,,2349,-8.884658,-11.600000,-5.324689,-2.000000
+industry_gap_distribution,post,Post-TCJA,2,pharma_biotech,Pharma/Biotech,,1852,-10.189727,-13.400000,-9.335361,-3.400000
+industry_gap_distribution,post,Post-TCJA,3,manufacturing,Manufacturing,,4347,-2.965220,-6.900000,-1.700000,2.370302
+industry_gap_distribution,post,Post-TCJA,4,oil_and_gas,Oil & Gas,,465,3.288213,-1.000000,3.448239,7.257819
+industry_gap_distribution,post,Post-TCJA,5,retail,Retail,,1003,1.079344,-1.605902,2.700000,4.400000
+industry_gap_distribution,post,Post-TCJA,6,utilities,Utilities,,527,-8.244966,-15.584681,-7.000000,0.000000
+industry_gap_distribution,post,Post-TCJA,7,other,Other,,4177,-0.520836,-2.084838,1.335841,4.300000

@@ -1,0 +1,10 @@
+row_key,row_label,pre_average,post_average,change,abs_change
+total_gap,Total Gap,-7.496996,-2.092622,5.404375,5.404375
+international,International,-4.846045,-0.504762,4.341283,4.341283
+one_time,One time,0.573879,-0.297431,-0.871310,0.871310
+federal_credits,Federal credits,-2.622346,-2.076489,0.545857,0.545857
+state_local,State & local,1.780934,2.173018,0.392085,0.392085
+valuation,Valuation,-1.069983,-0.499786,0.570197,0.570197
+book_v_tax,Book v. Tax,0.180084,-0.338218,-0.518303,0.518303
+other,Other,-1.575118,-0.788062,0.787056,0.787056
+max_non_international,One time,0.573879,-0.297431,-0.871310,0.871310

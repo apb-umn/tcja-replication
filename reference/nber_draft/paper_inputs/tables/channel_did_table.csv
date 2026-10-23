@@ -1,0 +1,12 @@
+row_order,row_key,row_label,coef,se,stars,t,n_obs,n_firms
+1,international,International,-0.778813,0.030582,***,-25.466133,9203,1307
+2,state_local,State \& local,0.020339,0.013830,,1.470682,9200,1307
+3,federal_credits,Federal credits,0.021828,0.019784,,1.103284,9200,1307
+4,permanent_items,Book v.\ tax,0.003759,0.025759,,0.145932,9200,1307
+5,reserves_losses,Valuation,0.096821,0.030953,***,3.127991,9200,1307
+6,tcja_onetime,One time,0.010026,0.012583,,0.796741,9200,1307
+7,other,Other,0.059731,0.028120,**,2.124120,9200,1307
+8,sum_channels,Sum of channels,-0.566310,,,,9203,1307
+9,etr,Effective tax rate,-0.611624,0.108445,***,-5.639936,9203,1307
+10,sum_non_international,Sum excluding international,0.212503,,,,9203,1307
+11,offset_share_pct,Offset share of the international closure (percent),27.285465,,,,9203,1307

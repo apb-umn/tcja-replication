@@ -1,0 +1,51 @@
+{
+  "definition": "foreign_geo_sales / total_positive_geo_sales using Compustat GEOSEG rows; foreign is geotp==3 and domestic is geotp==2; duplicate segment aliases removed by gvkey-year-sid-geotp-sales.",
+  "panel": {
+    "firms": 1307,
+    "firm_years": 11355
+  },
+  "all_event_years_with_geo_revenue_share": {
+    "firms": 1172,
+    "firm_years": 9663
+  },
+  "pooled_did_regression_sample": {
+    "firms": 1172,
+    "firm_years": 7823
+  },
+  "pre_mean_foreign_rev_share": 0.26990768269032817,
+  "post_mean_foreign_rev_share": 0.2666947934057024,
+  "share_zero_firm_years_in_reg_sample": 0.2809663811836891,
+  "share_one_firm_years_in_reg_sample": 0.004473986961523712,
+  "results": {
+    "baseline": {
+      "coef": 0.0004912481825002549,
+      "se": 0.0007552878717726935,
+      "n": 7823,
+      "G": 1172
+    },
+    "ind_yr": {
+      "coef": 0.00030426158747309936,
+      "se": 0.0008022984266584138,
+      "n": 7823,
+      "G": 1172
+    }
+  },
+  "international_same_sample": {
+    "baseline": {
+      "coef": -0.7357656043911804,
+      "se": 0.02881239101085647,
+      "n": 7823,
+      "G": 1172
+    },
+    "ind_yr": {
+      "coef": -0.7272791985922027,
+      "se": 0.03225771904594965,
+      "n": 7823,
+      "G": 1172
+    }
+  },
+  "closure_ratio_pp_revenue_share_per_1pp_international_closure": {
+    "baseline": 0.06676694039085249,
+    "ind_yr": 0.04183559602172863
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "exclude_sics": [
+    6020,
+    6035,
+    6722,
+    6726,
+    6798
+  ],
+  "download_year_range": [
+    2000,
+    2025
+  ],
+  "panel_year_range": [
+    1998,
+    2024
+  ],
+  "top_ns": [
+    100,
+    250,
+    500
+  ],
+  "finance_filter": "sic_industry.is_finance_sic (project-wide shared classifier)"
+}

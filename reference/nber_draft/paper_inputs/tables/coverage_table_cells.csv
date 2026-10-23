@@ -1,0 +1,13 @@
+table_id,period,period_label,row_order,row_key,row_label,stat_key,stat_label,value
+coverage_extracted_reconciliations,2013_2024,2013--2024,1,top100,Top 100,covered_firm_years,Covered firm-years,1165.000000
+coverage_extracted_reconciliations,2013_2024,2013--2024,1,top100,Top 100,equal_weight_share_pct,Equal-weight share (%),97.083333
+coverage_extracted_reconciliations,2013_2024,2013--2024,1,top100,Top 100,sales_weight_share_pct,Sales-weighted share (%),97.131388
+coverage_extracted_reconciliations,2013_2024,2013--2024,2,top250,Top 250,covered_firm_years,Covered firm-years,2884.000000
+coverage_extracted_reconciliations,2013_2024,2013--2024,2,top250,Top 250,equal_weight_share_pct,Equal-weight share (%),96.133333
+coverage_extracted_reconciliations,2013_2024,2013--2024,2,top250,Top 250,sales_weight_share_pct,Sales-weighted share (%),96.721736
+coverage_extracted_reconciliations,2013_2024,2013--2024,3,top500,Top 500,covered_firm_years,Covered firm-years,5709.000000
+coverage_extracted_reconciliations,2013_2024,2013--2024,3,top500,Top 500,equal_weight_share_pct,Equal-weight share (%),95.150000
+coverage_extracted_reconciliations,2013_2024,2013--2024,3,top500,Top 500,sales_weight_share_pct,Sales-weighted share (%),96.330367
+coverage_extracted_reconciliations,2013_2024,2013--2024,4,full_sample,Full sample,covered_firm_years,Covered firm-years,41010.000000
+coverage_extracted_reconciliations,2013_2024,2013--2024,4,full_sample,Full sample,equal_weight_share_pct,Equal-weight share (%),84.234167
+coverage_extracted_reconciliations,2013_2024,2013--2024,4,full_sample,Full sample,sales_weight_share_pct,Sales-weighted share (%),95.690603

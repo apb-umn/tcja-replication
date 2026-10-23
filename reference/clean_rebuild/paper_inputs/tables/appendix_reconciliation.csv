@@ -1,0 +1,10 @@
+row_key,row_label,value
+stage1_ok,Stage 1 filings with status OK,103304.000000
+stage2_packets,Packets received by stage 2,102973.000000
+no_packet_canonical,OK in stage 1 but no candidate table selected,264.000000
+rescue_ok,"Rescue-pass filings, processed separately",67.000000
+fail_at_extraction,Fail the check at extraction,1227.000000
+fail_at_panel,Fail it when the panel is assembled,3367.000000
+pass_then_fail,"Pass at extraction, fail on the panel",2166.000000
+fail_then_pass,"Fail at extraction, pass on the panel",81.000000
+matched_filing_years,Filing-years present at both points,219812.000000

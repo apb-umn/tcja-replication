@@ -1,0 +1,5 @@
+row_order,row_key,row_label,coef_table,coef_abs,se_table,coef_raw,se_raw,scale_factor,display_unit,n_firms,n_obs,stars,notes
+1,international,International contribution,-0.778813,0.778813,0.030582,-0.778813,0.030582,1.000000,pp,1307,9203,***,Direct pooled DiD from first-stage event-study summary.
+2,etr,Effective tax rate,-0.611624,0.611624,0.108445,-0.611624,0.108445,1.000000,pp,1307,9203,***,Direct pooled DiD from ETR event-study summary.
+3,foreign_profit_share,Foreign profit share,0.750200,0.750200,0.156700,0.007502,0.001567,100.000000,pp,876,5855,***,Raw regression is in share units; table rescales by 100 so entries are percentage points.
+90,international_long_window,"International contribution, post 2019-2024",-0.806480,0.806480,0.029399,-0.806480,0.029399,1.000000,pp,1370,11479,***,Post window extended to 2024; from build_post_window_variants.py.

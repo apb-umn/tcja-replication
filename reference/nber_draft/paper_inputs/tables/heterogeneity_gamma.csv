@@ -1,0 +1,9 @@
+row_order,row_key,row_label,binary,gamma_pp,gamma_se_pp,gamma_p,stars,n_obs,n_firms
+1,pre_rd_at_z,R\&D / assets,False,2.103116,0.850929,0.013453,**,5855,876
+2,pre_cash_at_z,Cash / assets,False,0.770884,0.261107,0.003153,***,5855,876
+3,pre_intan_ex_gw_at_z,Intangibles ex-goodwill / assets,False,-0.054194,0.203226,0.789725,,5855,876
+4,pre_foreign_rev_share_z,Foreign revenue share,False,0.376047,0.175617,0.032251,**,5414,803
+5,pre_has_haven_or_conduit,Any haven or conduit subsidiary,True,0.708949,0.511078,0.165392,,5355,790
+6,pre_has_classic_haven,Any classic-haven subsidiary,True,-0.030538,0.306101,0.920531,,5355,790
+7,pre_log1p_haven_subs_z,Log haven/conduit subsidiary count,False,-0.003312,0.157679,0.983242,,5355,790
+8,pre_log_at_z,Log assets,False,-0.435000,0.272008,0.109772,,5855,876

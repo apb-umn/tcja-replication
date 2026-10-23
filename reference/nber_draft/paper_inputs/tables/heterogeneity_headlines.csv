@@ -1,0 +1,12 @@
+row_key,label,value
+typicalExposedExposurePp,Mean pre-TCJA international exposure among exposed firms (pp),-6.044710
+typicalExposedSharePct,Mean pre-TCJA foreign profit share of those firms (percent),44.701285
+typicalExposedDropPp,Implied fall in foreign profit share for that firm (pp),4.534741
+typicalExposedDropPct,That fall as a percent of their pre-TCJA share,10.144543
+betaPiDom,Pooled DiD: domestic pretax income over lagged assets,-0.120930
+betaPiDomSe,SE,0.040871
+betaPiFo,Pooled DiD: foreign pretax income over lagged assets,0.088684
+betaPiFoSe,SE,0.045954
+zWinsorLowPct,Z winsorization: lower percentile,1.000000
+zWinsorHighPct,Z winsorization: upper percentile,99.000000
+zRdFirms,Firms underlying the R&D standardization,4778.000000

@@ -1,0 +1,16 @@
+row_key,row_label,value
+n_litigants_identified,Litigants matched to Compustat,20.000000
+n_litigants_in_sample,"Of those, in the estimation sample",11.000000
+n_sample_firms,Estimation-sample firms,1307.000000
+intl_full,intl: all firms,-0.778813
+intl_full_se,"intl: all firms, SE",0.030582
+intl_drop,intl: excluding litigants,-0.786878
+intl_drop_se,"intl: excluding litigants, SE",0.030804
+etr_full,etr: all firms,-0.611624
+etr_full_se,"etr: all firms, SE",0.108445
+etr_drop,etr: excluding litigants,-0.630527
+etr_drop_se,"etr: excluding litigants, SE",0.109806
+share_full,share: all firms,0.750231
+share_full_se,"share: all firms, SE",0.156681
+share_drop,share: excluding litigants,0.745649
+share_drop_se,"share: excluding litigants, SE",0.158332

@@ -1,0 +1,5 @@
+generated_at,source_role,source_path,source_mtime,notes
+2026-10-23T02:42:59-05:00,repo_script_logic,/private/tmp/tcja/test5/tcja_replication/analysis/build_firststage_event_studies.py,2026-10-23T02:11:22-05:00,Current repo first-stage event-study sample logic.
+2026-10-23T02:42:59-05:00,repo_classifier,/private/tmp/tcja/test5/tcja_replication/analysis/sic_industry.py,2026-10-23T02:11:22-05:00,Current repo SIC-to-industry mapping.
+2026-10-23T02:42:59-05:00,combined_panel,/private/tmp/tcja/test5/tcja_replication/data/analysis/cache/combined.pkl,2026-10-23T02:39:20-05:00,Current external-drive combined panel.
+2026-10-23T02:42:59-05:00,long_panel,/private/tmp/tcja/test5/tcja_replication/data/analysis/cache/long.pkl,2026-10-23T02:39:26-05:00,Current external-drive long reconciliation panel.

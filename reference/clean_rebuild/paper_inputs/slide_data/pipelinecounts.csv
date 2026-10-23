@@ -1,0 +1,41 @@
+key,label,value,format
+inputUrlsTotal,Phase 1: input URLs at top of funnel (intake rows + rescue),125367,int
+inputUrlsSkipNonHtml,Phase 1: status=SKIP-NON-HTML,20529,int
+inputUrlsFail,Phase 1: status=FAIL (parse/download failures),2,int
+inputUrlsDuplicates,Phase 1: duplicate URL rows collapsed (URL rows - unique batch URLs),1532,int
+phaseOneUniqueFilings,Phase 1: unique filings in batch (canonical + rescue),123835,int
+phaseOneBucketHighConf,Phase 1 bucket: high-confidence-extractable,39024,int
+phaseOneBucketLikely,Phase 1 bucket: likely-reconciliation-but-incomplete,39751,int
+phaseOneBucketAmbiguous,Phase 1 bucket: ambiguous,8675,int
+phaseOneBucketNarrative,Phase 1 bucket: narrative,13550,int
+phaseOneBucketNoTable,Phase 1 bucket: no-table,442,int
+phaseOneBucketWrongTable,Phase 1 bucket: wrong-table-type,1862,int
+phaseOneStatusOk,Phase 1: status=OK total (canonical + rescue),103304,int
+phaseOneExtractableSum,Phase 1: extractable buckets sum (high + likely + ambiguous),87450,int
+phaseTwoTotalRows,Phase 2: total extracted recon rows,224308,int
+phaseTwoCheckTrue,Phase 2: rows with check=TRUE,223081,int
+phaseTwoCheckFalse,Phase 2: rows with check=FALSE,1227,int
+phaseTwoDeterministic,Phase 2: rows from deterministic parser,119658,int
+phaseTwoLlmFallback,Phase 2: rows from LLM-assisted fallback,104650,int
+phaseTwoRateForm,Phase 2: rate-form rows (israte=1),110902,int
+phaseTwoAmountForm,Phase 2: amount-form rows (israte=0),113406,int
+phaseTwoUniqueFilings,Phase 2: unique filings with -1 row,82853,int
+arithmeticCheckPassPct,Phase 2: fraction of rows with check=TRUE (percent),99.5,pct
+packetsProcessed,Phase 2: stage 1 packets processed (all buckets),102973,int
+processedWithRows,Phase 2: processed packets yielding at least one row,82132,int
+processedNoRows,Phase 2: processed packets yielding no rows,20841,int
+filingsOutsideMainRun,Phase 2: filings with rows from outside the main run,721,int
+panelBaseRows,"Base panel rows (post-rescue, long-form)",227835,int
+panelCanonicalRows,"Canonical panel rows ((gvkey, recon-year), post-rescue)",103319,int
+basePanelFilingYears,Base panel filing-years (one row per filing x recon year),224240,int
+netFilingMatch,Net change in filing-years when matching filings to firms,-68,int
+dropYearRange,Dropped: reconciliation year outside 1998-2024,536,int
+dropFilingWindow,Dropped: outside the expected filing window,77,int
+dropNoCompustat,Dropped: no firm-year link to Compustat,1486,int
+dropCheckFail,Dropped: unsuccessful arithmetic check,3186,int
+dropDuplicateFirmYears,Dropped: duplicate firm-year rows across filings,141756,int
+analysisPanelFirmYears,Analysis panel: combined firm-years (rate + amount-derived),77199,int
+analysisPanelRateStated,Analysis panel: rate-stated firm-years,49409,int
+analysisPanelAmountDerived,Analysis panel: amount-derived non-overlap firm-years,27790,int
+profitableSubsampleFirmYears,Profitable subsample firm-years (comp-pi>1 AND comp-sale>0),48275,int
+profitableUniqueFirms,Profitable subsample: unique gvkeys,5994,int

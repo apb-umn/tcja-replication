@@ -1,0 +1,3 @@
+row_order,row_key,row_label,coef,se,t,n_obs,n_firms
+1,ppe_share,Foreign share of PP\&E,0.049984,0.242055,0.206498,3026,532
+2,capx_share,Foreign share of capital expenditures,0.654069,0.271504,2.409057,2500,420

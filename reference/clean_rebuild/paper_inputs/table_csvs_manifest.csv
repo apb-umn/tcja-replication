@@ -1,0 +1,8 @@
+table_csv,description,notes
+tables/industry_gap_distribution_table.csv,Industry gap distribution table rows for Datatool or direct CSV lookup.,Current classifier uses Other instead of the old Finance row and includes Utilities explicitly.
+tables/industry_gap_distribution_lookup.csv,Lookup-key version of the industry gap distribution table.,Adds lookup_key = period_rowkey for easier Datatool fetches.
+tables/contribution_gap_distribution_table.csv,Contribution distribution table rows for Datatool or direct CSV lookup.,Display labels track the draft table while internal source_group preserves the underlying repo grouping.
+tables/contribution_gap_distribution_lookup.csv,Lookup-key version of the contribution distribution table.,Adds lookup_key = period_rowkey for easier Datatool fetches.
+tables/table_cells.csv,Long-form cell-level lookup table spanning both hand-written tables.,Intended to make Datatool lookups easier when fetching a single table entry.
+tables/coverage_table.csv,Coverage table rows for the hand-written Table 3.,Uses repo stage3_phase2_extracted.csv for 2013-2024; Top groups are annual sales ranks.
+tables/coverage_table_cells.csv,Long-form cell-level lookup table for the coverage table.,Useful if you want Datatool to fetch one coverage entry at a time.

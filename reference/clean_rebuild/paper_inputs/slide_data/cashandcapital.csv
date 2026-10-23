@@ -1,0 +1,70 @@
+key,label,value,format
+cashEtrBeta,Cash-ETR pass-through: - on txpd/PI,-0.718,coef
+cashEtrBetaSe,Cash-ETR pass-through: SE,0.101,se
+cashEtrBetaSig,Cash-ETR pass-through: significance,***,stars
+cashEtrN,Cash-ETR pass-through: N firm-years,9070,int
+cashEtrFirms,Cash-ETR pass-through: N firms,1303,int
+cashEtrCoveragePct,comp-txpd coverage in DiD panel,98.6,pct
+cashEtrBookBetaCheck,Book-ETR - on the same panel (check),-0.612,coef
+cashVsBookPct,Cash pass-through vs book ( pct  larger),17,pct
+cashEtrEventShockYear,"Cash-ETR event-study coefficient, 2017",-0.03,coef
+cashEtrEventShockYearSe,"Cash-ETR event-study SE, 2017",0.22,se
+capLocPpeBeta,Foreign PP and E share (strict): - (firm + ind x yr FE),+0.00050,coef
+capLocPpeBetaSe,Foreign PP and E share (strict): SE,0.00242,se
+capLocPpeBetaSig,Foreign PP and E share (strict): significance,,stars
+capLocPpeFirms,Foreign PP and E share (strict): N firms,532,int
+capLocPpeN,Foreign PP and E share (strict): N firm-years,3026,int
+capLocPpePerPp,Foreign PP and E share (strict): pp share per 1pp Intl closure,+0.07,str
+capLocPpePreMeanPct,Foreign PP and E share (strict): pre-period mean ( pct ),10.2,pct
+capLocPpeIntlBeta,Foreign PP and E share (strict): same-sample first stage -,-0.74,coef
+capLocPpeIntlBetaSe,Foreign PP and E share (strict): same-sample first stage SE,0.07,se
+capLocCapxBeta,Foreign capex share (strict): - (firm + ind x yr FE),+0.00654,coef
+capLocCapxBetaSe,Foreign capex share (strict): SE,0.00272,se
+capLocCapxBetaSig,Foreign capex share (strict): significance,**,stars
+capLocCapxFirms,Foreign capex share (strict): N firms,420,int
+capLocCapxN,Foreign capex share (strict): N firm-years,2500,int
+capLocCapxPerPp,Foreign capex share (strict): pp share per 1pp Intl closure,+0.84,str
+capLocCapxPreMeanPct,Foreign capex share (strict): pre-period mean ( pct ),5.8,pct
+capLocCapxIntlBeta,Foreign capex share (strict): same-sample first stage -,-0.78,coef
+capLocCapxIntlBetaSe,Foreign capex share (strict): same-sample first stage SE,0.12,se
+capLocRevBeta,Foreign revenue share (same constr.): - (firm + ind x yr FE),+0.00097,coef
+capLocRevBetaSe,Foreign revenue share (same constr.): SE,0.00087,se
+capLocRevBetaSig,Foreign revenue share (same constr.): significance,,stars
+capLocRevFirms,Foreign revenue share (same constr.): N firms,1103,int
+capLocRevN,Foreign revenue share (same constr.): N firm-years,7121,int
+capLocRevPerPp,Foreign revenue share (same constr.): pp share per 1pp Intl closure,+0.13,str
+capLocRevPreMeanPct,Foreign revenue share (same constr.): pre-period mean ( pct ),24.6,pct
+capLocRevIntlBeta,Foreign revenue share (same constr.): same-sample first stage -,-0.73,coef
+capLocRevIntlBetaSe,Foreign revenue share (same constr.): same-sample first stage SE,0.04,se
+hetProfitRdTripleT,Profit-share heterogeneity: Di x Rd concentration t,+3.0,str
+hetProfitRdTripleSig,Profit-share heterogeneity: Di x Rd concentration sig,***,str
+hetProfitCapintTripleT,Profit-share heterogeneity: Di x Capint concentration t,-2.2,str
+hetProfitCapintTripleSig,Profit-share heterogeneity: Di x Capint concentration sig,**,str
+hetProfitCapintHighBeta,Profit-share heterogeneity: capital-intensity high -,+0.0061,coef
+hetProfitCapintHighSig,Profit-share heterogeneity: capital-intensity high sig,***,str
+hetProfitCapintHighFirms,Profit-share heterogeneity: capital-intensity high N firms,438,int
+hetProfitCapintLowBeta,Profit-share heterogeneity: capital-intensity low -,+0.0089,coef
+hetProfitCapintLowSig,Profit-share heterogeneity: capital-intensity low sig,***,str
+hetProfitCapintLowFirms,Profit-share heterogeneity: capital-intensity low N firms,438,int
+hetCapexRdTripleT,Capex-share heterogeneity: Di x Rd concentration t,-0.6,str
+hetCapexRdTripleSig,Capex-share heterogeneity: Di x Rd concentration sig,,str
+hetCapexCapintTripleT,Capex-share heterogeneity: Di x Capint concentration t,+1.5,str
+hetCapexCapintTripleSig,Capex-share heterogeneity: Di x Capint concentration sig,,str
+hetCapexCapintHighBeta,Capex-share heterogeneity: capital-intensity high -,+0.0160,coef
+hetCapexCapintHighSig,Capex-share heterogeneity: capital-intensity high sig,*,str
+hetCapexCapintHighFirms,Capex-share heterogeneity: capital-intensity high N firms,210,int
+hetCapexCapintLowBeta,Capex-share heterogeneity: capital-intensity low -,+0.0042,coef
+hetCapexCapintLowSig,Capex-share heterogeneity: capital-intensity low sig,,str
+hetCapexCapintLowFirms,Capex-share heterogeneity: capital-intensity low N firms,210,int
+ucCalibTauFrom,"Calibration: naive marginal tau, from",18,pct
+ucCalibTauTo,"Calibration: naive marginal tau, to",21,pct
+ucCalibZHigh,"Calibration: z, mostly bonus-eligible",0.9,str
+ucCalibZMid,"Calibration: z, structures-heavy",0.7,str
+ucCalibDeltaCHigh,"Calibration: d user cost, z=0.9 ( pct )",+0.45,str
+ucCalibDeltaCMid,"Calibration: d user cost, z=0.7 ( pct )",+1.30,str
+ucCalibCapxHigh,"Calibration: implied d capx/at per yr, z=0.9 (pp)",-0.05,str
+ucCalibCapxMid,"Calibration: implied d capx/at per yr, z=0.7 (pp)",-0.13,str
+ucCalibKOverAt,Calibration: assumed K/assets,0.5,str
+ucCalibHorizonYears,Calibration: transition horizon (years),5,int
+ucCalibCapxCiLo,"Worked-example capex implied CI, lower (pp)",-0.06,str
+ucCalibCapxCiHi,"Worked-example capex implied CI, upper (pp)",+0.33,str

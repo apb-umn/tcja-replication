@@ -1,0 +1,5 @@
+generated_at,source_role,source_path,source_mtime,notes
+2026-09-05T19:46:41-05:00,repo_script_logic,/Users/bhandari/Dropbox/TaxReconciliation/analysis/build_firststage_event_studies.py,2026-09-05T19:34:39-05:00,Current repo first-stage event-study sample logic.
+2026-09-05T19:46:41-05:00,repo_classifier,/Users/bhandari/Dropbox/TaxReconciliation/analysis/sic_industry.py,2026-05-30T11:40:33-05:00,Current repo SIC-to-industry mapping.
+2026-09-05T19:46:41-05:00,combined_panel,/Users/bhandari/Dropbox/TaxReconciliation/data/analysis/cache/combined.pkl,2026-09-05T19:35:34-05:00,Current external-drive combined panel.
+2026-09-05T19:46:41-05:00,long_panel,/Users/bhandari/Dropbox/TaxReconciliation/data/analysis/cache/long.pkl,2026-09-05T19:35:41-05:00,Current external-drive long reconciliation panel.

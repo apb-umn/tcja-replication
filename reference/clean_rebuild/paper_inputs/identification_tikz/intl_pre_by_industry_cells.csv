@@ -1,0 +1,89 @@
+row_order,row_key,row_label,stat_key,stat_label,value
+0,all_in_sample,All in-sample firms,n_firms,N firms,1307.000000
+0,all_in_sample,All in-sample firms,mean,Mean,-2.721314
+0,all_in_sample,All in-sample firms,sd,SD,4.734191
+0,all_in_sample,All in-sample firms,p25,25th,-4.587500
+0,all_in_sample,All in-sample firms,median,50th,-0.006700
+0,all_in_sample,All in-sample firms,p75,75th,0.000000
+0,all_in_sample,All in-sample firms,iqr,IQR,4.587500
+0,all_in_sample,All in-sample firms,min,Min,-15.000000
+0,all_in_sample,All in-sample firms,max,Max,7.972000
+0,all_in_sample,All in-sample firms,share_zero_pct,Share zero,38.638103
+0,all_in_sample,All in-sample firms,share_nonzero_pct,Share nonzero,61.361897
+1,tech,Tech,n_firms,N firms,154.000000
+1,tech,Tech,mean,Mean,-5.912666
+1,tech,Tech,sd,SD,6.523904
+1,tech,Tech,p25,25th,-13.218750
+1,tech,Tech,median,50th,-3.875000
+1,tech,Tech,p75,75th,0.000000
+1,tech,Tech,iqr,IQR,13.218750
+1,tech,Tech,min,Min,-15.000000
+1,tech,Tech,max,Max,7.972000
+1,tech,Tech,share_zero_pct,Share zero,15.584416
+1,tech,Tech,share_nonzero_pct,Share nonzero,84.415584
+2,pharma_biotech,Pharma/Biotech,n_firms,N firms,38.000000
+2,pharma_biotech,Pharma/Biotech,mean,Mean,-5.151899
+2,pharma_biotech,Pharma/Biotech,sd,SD,6.412577
+2,pharma_biotech,Pharma/Biotech,p25,25th,-10.606250
+2,pharma_biotech,Pharma/Biotech,median,50th,-4.346229
+2,pharma_biotech,Pharma/Biotech,p75,75th,0.000000
+2,pharma_biotech,Pharma/Biotech,iqr,IQR,10.606250
+2,pharma_biotech,Pharma/Biotech,min,Min,-15.000000
+2,pharma_biotech,Pharma/Biotech,max,Max,7.972000
+2,pharma_biotech,Pharma/Biotech,share_zero_pct,Share zero,13.157895
+2,pharma_biotech,Pharma/Biotech,share_nonzero_pct,Share nonzero,86.842105
+3,manufacturing,Manufacturing,n_firms,N firms,459.000000
+3,manufacturing,Manufacturing,mean,Mean,-3.996368
+3,manufacturing,Manufacturing,sd,SD,5.096706
+3,manufacturing,Manufacturing,p25,25th,-7.334495
+3,manufacturing,Manufacturing,median,50th,-2.236105
+3,manufacturing,Manufacturing,p75,75th,0.000000
+3,manufacturing,Manufacturing,iqr,IQR,7.334495
+3,manufacturing,Manufacturing,min,Min,-15.000000
+3,manufacturing,Manufacturing,max,Max,7.972000
+3,manufacturing,Manufacturing,share_zero_pct,Share zero,22.004357
+3,manufacturing,Manufacturing,share_nonzero_pct,Share nonzero,77.995643
+4,oil_and_gas,Oil & Gas,n_firms,N firms,37.000000
+4,oil_and_gas,Oil & Gas,mean,Mean,-1.111502
+4,oil_and_gas,Oil & Gas,sd,SD,3.812960
+4,oil_and_gas,Oil & Gas,p25,25th,-1.000000
+4,oil_and_gas,Oil & Gas,median,50th,0.000000
+4,oil_and_gas,Oil & Gas,p75,75th,0.000000
+4,oil_and_gas,Oil & Gas,iqr,IQR,1.000000
+4,oil_and_gas,Oil & Gas,min,Min,-15.000000
+4,oil_and_gas,Oil & Gas,max,Max,6.343865
+4,oil_and_gas,Oil & Gas,share_zero_pct,Share zero,56.756757
+4,oil_and_gas,Oil & Gas,share_nonzero_pct,Share nonzero,43.243243
+5,retail,Retail,n_firms,N firms,116.000000
+5,retail,Retail,mean,Mean,-0.849537
+5,retail,Retail,sd,SD,2.351064
+5,retail,Retail,p25,25th,-0.970759
+5,retail,Retail,median,50th,0.000000
+5,retail,Retail,p75,75th,0.000000
+5,retail,Retail,iqr,IQR,0.970759
+5,retail,Retail,min,Min,-11.300000
+5,retail,Retail,max,Max,7.972000
+5,retail,Retail,share_zero_pct,Share zero,57.758621
+5,retail,Retail,share_nonzero_pct,Share nonzero,42.241379
+6,utilities,Utilities,n_firms,N firms,80.000000
+6,utilities,Utilities,mean,Mean,-0.086005
+6,utilities,Utilities,sd,SD,0.968060
+6,utilities,Utilities,p25,25th,0.000000
+6,utilities,Utilities,median,50th,0.000000
+6,utilities,Utilities,p75,75th,0.000000
+6,utilities,Utilities,iqr,IQR,0.000000
+6,utilities,Utilities,min,Min,-6.075000
+6,utilities,Utilities,max,Max,2.432529
+6,utilities,Utilities,share_zero_pct,Share zero,91.250000
+6,utilities,Utilities,share_nonzero_pct,Share nonzero,8.750000
+7,other,Other,n_firms,N firms,423.000000
+7,other,Other,mean,Mean,-1.110045
+7,other,Other,sd,SD,2.843435
+7,other,Other,p25,25th,-1.250000
+7,other,Other,median,50th,0.000000
+7,other,Other,p75,75th,0.000000
+7,other,Other,iqr,IQR,1.250000
+7,other,Other,min,Min,-15.000000
+7,other,Other,max,Max,7.972000
+7,other,Other,share_zero_pct,Share zero,50.591017
+7,other,Other,share_nonzero_pct,Share nonzero,49.408983

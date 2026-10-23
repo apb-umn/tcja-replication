@@ -1,0 +1,12 @@
+# licensed inputs supplied by the user
+data/original/*.csv
+# the plain-CSV panel is distributed gzipped on GitHub (data/tax_reconciliation_panel_shareable.csv.gz)
+data/tax_reconciliation_panel_shareable.csv
+# everything run_all.sh generates
+data/analysis/
+run_all.log
+paper/Inputs/slide_data/
+paper/*.aux paper/*.bbl paper/*.blg paper/*.log paper/*.out paper/*.toc paper/*.synctex.gz
+paper/tcja_draft5.pdf
+__pycache__/
+.DS_Store

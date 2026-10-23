@@ -1,0 +1,9 @@
+row_order,row_key,row_label,value,display_0dp,display_1dp,display_3dp,format,source_file,notes
+1,clipThirtyPpBetaShare,A.14 clip 30pp: foreign profit share coefficient,0.005840,0,0.0,0.006,coef,remainingpipeline.csv,Raw foreign-profit-share coefficient in share units from remainingpipeline.csv.
+2,clipThirtyPpBetaSharePp,A.14 clip 30pp: foreign profit share coefficient (pp),0.584000,1,0.6,0.584,coef,remainingpipeline.csv,Same foreign-profit-share coefficient rescaled by 100 so the paper can report percentage points directly.
+3,clipThirtyPpBetaIntl,A.14 clip 30pp: International coefficient,-0.787000,-1,-0.8,-0.787,coef,remainingpipeline.csv,Signed International coefficient on the foreign-share subsample from remainingpipeline.csv.
+4,clipThirtyPpBetaIntlAbs,A.14 clip 30pp: International coefficient (absolute pp),0.787000,1,0.8,0.787,coef,remainingpipeline.csv,"Absolute-value version of the signed International coefficient, convenient for prose that discusses magnitudes."
+5,clipThirtyPpBetaEtr,A.14 clip 30pp: ETR coefficient,-0.482000,-0,-0.5,-0.482,coef,remainingpipeline.csv,Signed matched-subsample ETR coefficient from remainingpipeline.csv.
+6,clipThirtyPpBetaEtrAbs,A.14 clip 30pp: ETR coefficient (absolute pp),0.482000,0,0.5,0.482,coef,remainingpipeline.csv,"Absolute-value version of the signed ETR coefficient, convenient for prose that discusses magnitudes."
+7,clipThirtyPpRatioShareIntl,A.14 clip 30pp: Share/Intl ratio,0.740000,1,0.7,0.740,str,remainingpipeline.csv,Stored repo scalar for 100 x beta_share / |beta_Intl| under the 30pp clipping rule.
+8,clipThirtyPpRatioShareEtr,A.14 clip 30pp: Share/ETR ratio,1.210000,1,1.2,1.210,str,remainingpipeline.csv,Stored repo scalar for 100 x beta_share / |beta_ETR| under the 30pp clipping rule.

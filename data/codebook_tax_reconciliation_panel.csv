@@ -1,0 +1,115 @@
+column,source,populated_in_package,description
+filing_id,SEC filing,yes,Stable 12-hex id of the 10-K filing (hash of the canonical EDGAR URL).
+filing_url,SEC filing,yes,EDGAR URL of the 10-K document the reconciliation was extracted from.
+gvkey,Identifier,yes,"Compustat GVKEY of the filer (link key for the Compustat merge; integer, no leading zeros)."
+recon_year,Reconciliation,yes,Fiscal year the reconciliation column refers to (a 10-K reports up to 3 years; one row per filing x year).
+year_offset_from_filing,SEC filing,yes,"recon_year minus the filing's own fiscal year (0 = current year, -1 = prior year, ...)."
+within_expected_filing_window,SEC filing,yes,True if recon_year lies in the window a 10-K is expected to cover.
+filing_entity_count,SEC filing,yes,Number of Compustat entities mapped to the same filing URL (combined filings).
+has_compustat_year_match,Compustat flag,yes,"True if a Compustat Fundamentals Annual row exists for (gvkey, recon_year). Recomputed by merge_compustat.py."
+comp_datadate,Compustat (blank),no,DATADATE of the matched Compustat row.
+comp_fyear,Compustat (blank),no,FYEAR of the matched Compustat row (= recon_year when matched).
+comp_pi,Compustat (blank),no,Compustat Fundamentals Annual PI: Pretax income.
+comp_pidom,Compustat (blank),no,"Compustat Fundamentals Annual PIDOM: Pretax income, domestic."
+comp_pifo,Compustat (blank),no,"Compustat Fundamentals Annual PIFO: Pretax income, foreign."
+comp_ni,Compustat (blank),no,Compustat Fundamentals Annual NI: Net income.
+comp_txt,Compustat (blank),no,"Compustat Fundamentals Annual TXT: Income taxes, total."
+comp_txpd,Compustat (blank),no,Compustat Fundamentals Annual TXPD: Income taxes paid.
+comp_sale,Compustat (blank),no,Compustat Fundamentals Annual SALE: Sales/turnover (net).
+comp_cogs,Compustat (blank),no,Compustat Fundamentals Annual COGS: Cost of goods sold.
+comp_xsga,Compustat (blank),no,Compustat Fundamentals Annual XSGA: SG&A expense.
+comp_xrd,Compustat (blank),no,Compustat Fundamentals Annual XRD: R&D expense.
+comp_emp,Compustat (blank),no,Compustat Fundamentals Annual EMP: Employees (thousands).
+comp_at,Compustat (blank),no,Compustat Fundamentals Annual AT: Total assets.
+comp_capx,Compustat (blank),no,Compustat Fundamentals Annual CAPX: Capital expenditures.
+comp_ppent,Compustat (blank),no,"Compustat Fundamentals Annual PPENT: PP&E, net."
+comp_intan,Compustat (blank),no,Compustat Fundamentals Annual INTAN: Intangible assets.
+comp_gdwl,Compustat (blank),no,Compustat Fundamentals Annual GDWL: Goodwill.
+comp_aqc,Compustat (blank),no,Compustat Fundamentals Annual AQC: Acquisitions.
+comp_che,Compustat (blank),no,Compustat Fundamentals Annual CHE: Cash and short-term investments.
+comp_dltt,Compustat (blank),no,Compustat Fundamentals Annual DLTT: Long-term debt.
+comp_dlc,Compustat (blank),no,Compustat Fundamentals Annual DLC: Debt in current liabilities.
+comp_ceq,Compustat (blank),no,Compustat Fundamentals Annual CEQ: Common equity.
+comp_dvc,Compustat (blank),no,"Compustat Fundamentals Annual DVC: Dividends, common."
+comp_prstkc,Compustat (blank),no,Compustat Fundamentals Annual PRSTKC: Purchase of common and preferred stock.
+comp_mkvalt,Compustat (blank),no,"Compustat Fundamentals Annual MKVALT: Market value, total."
+comp_prcc_f,Compustat (blank),no,"Compustat Fundamentals Annual PRCC_F: Price close, fiscal year."
+comp_csho,Compustat (blank),no,Compustat Fundamentals Annual CSHO: Common shares outstanding.
+comp_txndb,Compustat (blank),no,Compustat Fundamentals Annual TXNDB: Net deferred tax liability (balance sheet).
+comp_txndba,Compustat (blank),no,Compustat Fundamentals Annual TXNDBA: Net deferred tax assets.
+comp_txndbl,Compustat (blank),no,Compustat Fundamentals Annual TXNDBL: Net deferred tax liabilities.
+comp_txdb,Compustat (blank),no,Compustat Fundamentals Annual TXDB: Deferred taxes (balance sheet).
+comp_txditc,Compustat (blank),no,Compustat Fundamentals Annual TXDITC: Deferred taxes and investment tax credit.
+comp_tlcf,Compustat (blank),no,Compustat Fundamentals Annual TLCF: Tax loss carryforward.
+comp_txfed,Compustat (blank),no,"Compustat Fundamentals Annual TXFED: Income taxes, federal."
+comp_txfo,Compustat (blank),no,"Compustat Fundamentals Annual TXFO: Income taxes, foreign."
+comp_oancf,Compustat (blank),no,"Compustat Fundamentals Annual OANCF: Operating activities, net cash flow."
+comp_sstk,Compustat (blank),no,Compustat Fundamentals Annual SSTK: Sale of common and preferred stock.
+comp_sic,Compustat (blank),no,Compustat Fundamentals Annual SIC: SIC code (header).
+comp_fic,Compustat (blank),no,Compustat Fundamentals Annual FIC: Country of incorporation (ISO code).
+filing_compustat_fyear,Compustat (blank),no,FYEAR of the Compustat row matched to the filing itself (loaded by build_etr_figures.py but not used in any computation; may be left blank).
+statutory_tax,Reconciliation,yes,Starting line of the reconciliation: statutory rate in percentage points if israte=1; expected tax at the statutory rate in filing-native currency units if israte=0.
+israte,Reconciliation,yes,"1 = rate reconciliation (percentage points); 0 = dollar/provision reconciliation (filing-native units, usually thousands)."
+category_1_label,Reconciliation,yes,"Label of reconciling item 1, as written in the filing."
+category_1_val,Reconciliation,yes,"Value of reconciling item 1 (pp if israte=1, native currency units if israte=0)."
+category_2_label,Reconciliation,yes,"Label of reconciling item 2, as written in the filing."
+category_2_val,Reconciliation,yes,"Value of reconciling item 2 (pp if israte=1, native currency units if israte=0)."
+category_3_label,Reconciliation,yes,"Label of reconciling item 3, as written in the filing."
+category_3_val,Reconciliation,yes,"Value of reconciling item 3 (pp if israte=1, native currency units if israte=0)."
+category_4_label,Reconciliation,yes,"Label of reconciling item 4, as written in the filing."
+category_4_val,Reconciliation,yes,"Value of reconciling item 4 (pp if israte=1, native currency units if israte=0)."
+category_5_label,Reconciliation,yes,"Label of reconciling item 5, as written in the filing."
+category_5_val,Reconciliation,yes,"Value of reconciling item 5 (pp if israte=1, native currency units if israte=0)."
+category_6_label,Reconciliation,yes,"Label of reconciling item 6, as written in the filing."
+category_6_val,Reconciliation,yes,"Value of reconciling item 6 (pp if israte=1, native currency units if israte=0)."
+category_7_label,Reconciliation,yes,"Label of reconciling item 7, as written in the filing."
+category_7_val,Reconciliation,yes,"Value of reconciling item 7 (pp if israte=1, native currency units if israte=0)."
+category_8_label,Reconciliation,yes,"Label of reconciling item 8, as written in the filing."
+category_8_val,Reconciliation,yes,"Value of reconciling item 8 (pp if israte=1, native currency units if israte=0)."
+category_9_label,Reconciliation,yes,"Label of reconciling item 9, as written in the filing."
+category_9_val,Reconciliation,yes,"Value of reconciling item 9 (pp if israte=1, native currency units if israte=0)."
+category_10_label,Reconciliation,yes,"Label of reconciling item 10, as written in the filing."
+category_10_val,Reconciliation,yes,"Value of reconciling item 10 (pp if israte=1, native currency units if israte=0)."
+category_11_label,Reconciliation,yes,"Label of reconciling item 11, as written in the filing."
+category_11_val,Reconciliation,yes,"Value of reconciling item 11 (pp if israte=1, native currency units if israte=0)."
+category_12_label,Reconciliation,yes,"Label of reconciling item 12, as written in the filing."
+category_12_val,Reconciliation,yes,"Value of reconciling item 12 (pp if israte=1, native currency units if israte=0)."
+category_13_label,Reconciliation,yes,"Label of reconciling item 13, as written in the filing."
+category_13_val,Reconciliation,yes,"Value of reconciling item 13 (pp if israte=1, native currency units if israte=0)."
+category_14_label,Reconciliation,yes,"Label of reconciling item 14, as written in the filing."
+category_14_val,Reconciliation,yes,"Value of reconciling item 14 (pp if israte=1, native currency units if israte=0)."
+category_15_label,Reconciliation,yes,"Label of reconciling item 15, as written in the filing."
+category_15_val,Reconciliation,yes,"Value of reconciling item 15 (pp if israte=1, native currency units if israte=0)."
+effective_tax,Reconciliation,yes,Final line: effective tax rate (israte=1) or total income tax expense/benefit (israte=0).
+recon_check,Reconciliation,yes,True if statutory_tax + sum(category_i_val) equals effective_tax within tolerance.
+extraction_mode,Extraction,yes,"How the row was extracted: deterministic parser, llm_assisted fallback, or a manual/scripted repair mode."
+extraction_candidate_id,Extraction,yes,Which candidate table in the filing packet was used.
+extraction_confidence,Extraction,yes,Extractor confidence (high / medium / low).
+extraction_warnings,Extraction,yes,Pipe-separated extractor warnings (e.g. statutory_value_inferred).
+phase1_source_score,Extraction,yes,Phase 1 (table-finding) score of the selected table.
+extracted_category_count,Reconciliation,yes,Number of non-blank reconciling items (category_*_label) in the row.
+phase1_status,Extraction,yes,Phase 1 status for the filing (OK / SKIP_NON_HTML / FAIL).
+phase1_selected_type,Extraction,yes,Phase 1 selected object type (table / narrative / skip).
+phase1_selected_bucket,Extraction,yes,Phase 1 confidence bucket of the selected table.
+phase1_selected_reason,Extraction,yes,Semicolon-separated reasons for the Phase 1 selection.
+phase1_retrieval_path,Extraction,yes,Phase 1 retrieval path (best_region / global_search / xbrl_fallback ...).
+phase1_cache_source,Extraction,yes,Phase 1 cache source.
+phase1_best_region_score,Extraction,yes,Phase 1 best-region score.
+phase1_num_tables_total,Extraction,yes,Number of HTML tables in the filing.
+phase1_selected_count,Extraction,yes,Number of tables Phase 1 selected.
+sec_cik,SEC filing,yes,SEC Central Index Key of the filer.
+sec_cik10,SEC filing,yes,"CIK, 10-digit zero-padded form."
+sec_ticker,SEC filing,yes,Ticker as recorded by SEC-API at filing time.
+sec_company_name,SEC filing,yes,Company name as recorded in the EDGAR filing index.
+sec_form_type,SEC filing,yes,"Form type (10-K, 10-K405, 10KSB, ...)."
+filed_at,SEC filing,yes,Filing timestamp.
+period_of_report,SEC filing,yes,Fiscal period end date of the filing.
+sec_fyear,SEC filing,yes,Fiscal year of the filing (from period_of_report).
+phase1_out_txt_path,Extraction,yes,Path of the Phase 1 text packet inside the authors' pipeline (not shipped).
+phase1_error,Extraction,yes,"Phase 1 error message, if any."
+source_dir,Provenance,yes,Which pipeline run (canonical or a rescue run) the row came from.
+_status_rank,Provenance,yes,Internal ranking used when the same filing appeared in several runs.
+overlap_repair_role,Provenance,yes,Role of the row in the overlapping-filing repair step (replacement / replaced_source / value_repaired).
+overlap_repair_tag,Provenance,yes,Which repair pass touched the row.
+overlap_repair_counterparty_filing_id,Provenance,yes,filing_id of the counterpart row in an overlap repair.
+overlap_repair_applied,Provenance,yes,True if an overlap repair was applied to the row.

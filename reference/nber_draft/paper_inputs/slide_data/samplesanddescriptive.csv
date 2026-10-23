@@ -1,0 +1,47 @@
+key,label,value,format
+didSampleFirms,Substitution / pass-through DiD: N firms,1307,int
+realOutcomeNForeignShare,Income location: N firms for foreign-share outcome,876,int
+realOutcomeNPiDom,Income location: N firms for -^dom/assets outcome,883,int
+realOutcomeNPiFo,Income location: N firms for -^fo/assets outcome,873,int
+geoRevenueShareFirms,Foreign revenue share: distinct firms with usable segment data,1172,int
+geoRevenueShareFirmYears,Foreign revenue share: pooled DiD firm-years,7823,int
+realActivitySampleFirms,Real-activity max-information panel: N firms (largest outcome subsample),1923,int
+windfallSampleFirms,Windfall: max-info sample N firms (Strat. B),1392,int
+passthroughClosurePct,Derived:  pct  of pre-TCJA Intl benefit closed per pp (--Intl rounded),78,pct
+passthroughEtrPct,Derived:  pct  of closure that passes through to ETR (--ETR/|--Intl|),79,pct
+workedExampleFromPp,"Worked example: more exposed firm, pre-TCJA Intl contribution (pp, absolute value)",10,int
+workedExampleToPp,"Worked example: less exposed firm, pre-TCJA Intl contribution (pp, absolute value)",5,int
+workedExampleGapPp,Worked example: pre-TCJA exposure gap between the two firms (pp),5,int
+workedExampleIntlPp,Worked example: differential Intl closure = |--Intl| - gap (pp),3.9,str
+workedExampleEtrPp,Worked example: differential ETR rise = |--ETR| - gap (pp),3.1,str
+workedExampleOtherPp,Worked example: differential movement in the other channels = -(Intl closure - ETR rise) (pp),-0.8,str
+closureRatioMin,Income-location closure ratio: min across clip variants,1.10,str
+closureRatioMax,Income-location closure ratio: max across clip variants,1.32,str
+revenueSharePreMean,Foreign revenue share: mean pre-TCJA (2013-16),27,pct
+revenueSharePostMean,Foreign revenue share: mean post-TCJA (2019-22),26.7,pct
+pharmaSampleFirmYears,Pharma 2017 profitable sample,62,int
+fdiiClaimantsCount,FDII channel test: N claimants (body 'Direct test of the FDII channel' slide),299,int
+fdiiNonClaimantsCount,FDII channel test: N non-claimants,1671,int
+commonFirmCorrelation,A.15 real-activity: common-firm correlation between max-info panel and substitution panel,0.94,str
+foreignShareDeclinePct,Typical exposed firm: percent decline in its foreign profit share,10,pct
+foreignShareDeclinePp,Typical exposed firm: foreign share pp decline (derived headline),1.32,str
+profitVsRevenueResponseRatio,Profit vs revenue response ratio,25,str
+incomeLocPerPpForeignShare,Profit location: implied foreign-share - for -10 vs -5 firm (pp),-3.8,str
+incomeLocPerPpLogShare,Profit location: implied log foreign-share - for -10 vs -5 firm (log pts),-0.19,str
+incomeLocPerPpPiDom,Profit location: implied --dom/assets - for -10 vs -5 firm (pp),+0.87,str
+incomeLocPerPpPiFo,Profit location: implied --fo/assets - for -10 vs -5 firm (pp),-0.56,str
+profitPerPpClosure,Foreign profit share: implied - per 1pp Intl closure (pp),1.04,str
+revenuePerPpClosure,Foreign revenue share: implied - per 1pp Intl closure (pp),0.04,str
+crossCheckMainImpliedShare,R and D split (All): foreign-share - per 1pp benefit (pp),0.75,str
+crossCheckMainImpliedEtr,R and D split (All): implied ETR - per 1pp benefit (pp),0.57,str
+rdBinLowMax,"R and D bin: Low cutoff (R and D/assets, pct)",0,str
+rdBinMidLow,"R and D bin: Middle lower bound (R and D/assets, pct)",0.02,str
+rdBinMidHigh,R and D bin: Middle upper bound = High threshold (pct),1.0,str
+fdiiExposureDiff,FDII slide: exposure difference figure caption refers to (pp),5,int
+confidenceLevel,Standard confidence-interval level used in figures (pct),95,int
+cvMedianAbsErrPp,A.6 cross-validation: median |derived - stated ETR| (pp),0.00,str
+cvIqrLowPp,A.6 cross-validation: IQR lower bound (pp),-0.02,str
+cvIqrHighPp,A.6 cross-validation: IQR upper bound (pp),+0.04,str
+balanceRuleBetaIntl,A.15 balance rule (1+/1+): --Intl,-0.784,coef
+balanceRuleBetaShare,A.15 balance rule (1+/1+): --share,+0.00794,coef
+balanceRuleBetaEtr,A.15 balance rule (1+/1+): --ETR (pass-through),-0.656,coef

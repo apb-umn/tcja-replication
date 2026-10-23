@@ -1,0 +1,5 @@
+table_id,period,period_label,row_order,row_key,row_label,years_covered,compustat_firm_years,covered_firm_years,equal_weight_share_pct,sales_weight_share_pct
+coverage_extracted_reconciliations,2013_2024,2013--2024,1,top100,Top 100,12,1200,1165,97.083333,97.131388
+coverage_extracted_reconciliations,2013_2024,2013--2024,2,top250,Top 250,12,3000,2884,96.133333,96.721736
+coverage_extracted_reconciliations,2013_2024,2013--2024,3,top500,Top 500,12,6000,5709,95.150000,96.330367
+coverage_extracted_reconciliations,2013_2024,2013--2024,4,full_sample,Full sample,12,48740,41010,84.234167,95.690603

@@ -1,0 +1,10 @@
+stage,firm_years,pct_of_compustat
+"0. Compustat universe (USA, non-excluded SIC, fyear 2000-2025)",145504,100.0
+1. Filing URLs merged with Compustat,125313,86.12
+2a. Phase 1: cached (status=OK),103069,70.84
+2b. Phase 1: classified (any bucket),103069,70.84
+2c. Phase 1: extractable (high+likely+ambig),87337,60.02
+3. Phase 2: extracted rows (any year),102005,70.1
+4. Canonical analysis panel,103319,71.01
+"5. Profitable subsample (pi>1, sale>0)",57147,39.28
+6. ETR sample (profitable + non-Finance),52851,36.32

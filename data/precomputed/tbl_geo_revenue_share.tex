@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Foreign revenue-share effects from Compustat geographic segments}
+\label{tab:geo_revenue_share}
+\small
+\begin{tabular}{lccc}
+\toprule
+ & (1) Baseline & (2) + Ind$\times$yr FE & $N$ firms \\
+\midrule
+Foreign revenue share & $+0.00049$ & $+0.00030$ & 1,172 \\
+ & $(0.00076)$ & $(0.00080)$ & \\
+International channel, same sample & $-0.73577^{***}$ & $-0.72728^{***}$ & 1,172 \\
+ & $(0.02881)$ & $(0.03226)$ & \\
+\midrule
+Closure ratio & 0.07 pp & 0.04 pp & \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Foreign revenue share is positive foreign GEOSEG sales divided by total positive GEOSEG sales. Foreign rows have \texttt{geotp}=3; domestic rows have \texttt{geotp}=2. Duplicate segment aliases are removed at the gvkey-year-sid-geography-sales level.
+\item Sample: same 1,277-firm substitution panel; regression mask requires non-missing GEOSEG revenue share. DiD excludes 2017 and 2018 transition years. SE clustered at firm.
+\item Closure ratio is $100\times\hat\beta_{\text{foreign rev share}}/|\hat\beta_{\text{International}}|$, in pp foreign revenue share per 1 pp International-channel closure.
+\end{tablenotes}
+\end{table}

@@ -1,0 +1,7 @@
+row_order,row_key,row_label,coef,se,stars,t,n_firms,n_obs
+1,cash,Cash and equivalents,0.455128,0.129521,***,3.513936,1935,13066
+2,taxes_paid,Cash taxes paid,-0.057084,0.009791,***,-5.830077,1824,11805
+3,dividends,Dividends,-0.025843,0.011996,**,-2.154271,1933,13017
+4,repurchases,Share repurchases,0.004793,0.025825,,0.185600,1926,12492
+5,debt,Total debt,-0.051763,0.146935,,-0.352288,1936,13070
+6,acquisitions,Acquisitions,0.046632,0.040759,,1.144092,1918,12505

@@ -1,0 +1,19 @@
+row_key,row_label,value
+corr_w_intl,Correlation of W with pre-TCJA exposure,0.051967
+mean_w_exposed,"Mean W, exposure below -2pp",0.001755
+mean_w_unexposed,"Mean W, exposure at or above zero",0.007879
+n_overlap,Firms with both measures,2036.000000
+foreign_share_base,Foreign profit share: without control,0.749227
+foreign_share_base_se,"Foreign profit share: without control, SE",0.157368
+foreign_share_ctrl,Foreign profit share: with W x post control,0.749840
+foreign_share_ctrl_se,"Foreign profit share: with control, SE",0.158178
+foreign_share_w_coef,Foreign profit share: coefficient on W x post,-0.039352
+foreign_share_w_se,Foreign profit share: SE on W x post,0.253931
+foreign_share_firms,Foreign profit share: firms,731.000000
+etr_w_base,Effective tax rate: without control,-0.559909
+etr_w_base_se,"Effective tax rate: without control, SE",0.109378
+etr_w_ctrl,Effective tax rate: with W x post control,-0.532169
+etr_w_ctrl_se,"Effective tax rate: with control, SE",0.109614
+etr_w_w_coef,Effective tax rate: coefficient on W x post,-1.092865
+etr_w_w_se,Effective tax rate: SE on W x post,0.166195
+etr_w_firms,Effective tax rate: firms,1128.000000

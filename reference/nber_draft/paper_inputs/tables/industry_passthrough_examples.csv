@@ -1,0 +1,8 @@
+row_key,industry,international_pre_pp,international_post_pp,international_closure_pp,total_gap_closure_pp,implied_etr_increase_pp,other_channels_pp,other_channels_abs_pp
+tech,Tech,-10.653221,-3.535703,7.117518,7.457746,5.589593,-1.942048,1.942048
+pharma_biotech,Pharma/Biotech,-9.879881,-4.570227,5.309654,4.613322,4.169825,-1.448764,1.448764
+manufacturing,Manufacturing,-6.103339,-0.370868,5.732471,7.945215,4.501876,-1.564131,1.564131
+oil_gas,Oil & Gas,2.168524,7.595119,5.426595,8.609616,4.261662,-1.480672,1.480672
+retail,Retail,-2.321310,-0.536021,1.785289,3.350295,1.402039,-0.487124,0.487124
+utilities,Utilities,-0.262567,0.543163,0.805730,-1.383562,0.632763,-0.219847,0.219847
+other,Other,-3.742159,-0.282166,3.459994,4.128901,2.717234,-0.944075,0.944075
