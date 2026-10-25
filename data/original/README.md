@@ -17,6 +17,9 @@ rows blank; nothing else changes.
 ## 1. `compustat_data.csv` — Compustat Fundamentals Annual  (required)
 
 * Fiscal years **1995–2024** (the panel's `recon_year` runs 1998–2024; merge is on `fyear`).
+  In the WRDS query form, set the date variable to **Fiscal Year (`fyear`)**, not
+  Data Date (`datadate`); selecting on data date drops or shifts firm-years
+  whose fiscal year does not end in the calendar year.
 * Company codes: all. Do not pre-filter by country or industry; the code applies its
   own screens (`fic == 'USA'`, the SIC filter in `analysis/sic_industry.py`).
 * Consolidation / format: select **all** (`consol` C and others; `indfmt` INDL and FS;
@@ -45,7 +48,10 @@ Used by `analysis/build_geo_revenue_share_outcomes.py` and `analysis/capex_locat
 
 ## 3. `subsidiaries*.csv` — Exhibit 21 subsidiary lists  (optional)
 
-WRDS SEC Analytics Suite → Subsidiaries (Exhibit 21), exported as CSV. One file
+WRDS SEC Analytics Suite → Subsidiaries (Exhibit 21), exported as CSV. The SEC
+Analytics Suite is a separate WRDS product that many institutional subscriptions
+(the University of Minnesota's among them) do not include; without it, skip this
+file. One file
 or several (e.g. `subsidiaries_pre_tcja.csv`, `subsidiaries_post_tcja.csv`);
 `run_all.sh` passes every `data/original/subsidiaries*.csv` to
 `analysis/build_subsidiary_footprint.py`, which keeps annual filings

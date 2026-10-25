@@ -1250,13 +1250,16 @@ def validation(profitable):
     # Yearly counts
     yr_counts = profitable.groupby('recon_year').size()
     print("\nYear-by-year profitable firm-year counts:")
+    # [replication package] Counts from the authors' run of this package (the
+    # original list predated the current panel).  A newer Compustat download
+    # can move a year by a firm or two.
     expected = {
-        1998: 210, 1999: 628, 2000: 1125, 2001: 1345, 2002: 1733,
-        2003: 2009, 2004: 2367, 2005: 2443, 2006: 2417, 2007: 2336,
-        2008: 1927, 2009: 1897, 2010: 2187, 2011: 2151, 2012: 2077,
-        2013: 2058, 2014: 2018, 2015: 1850, 2016: 1789, 2017: 1665,
-        2018: 1519, 2019: 1638, 2020: 1485, 2021: 1813, 2022: 1706,
-        2023: 1626, 2024: 1509,
+        1998: 456, 1999: 1002, 2000: 1508, 2001: 1571, 2002: 1841,
+        2003: 2116, 2004: 2414, 2005: 2450, 2006: 2430, 2007: 2348,
+        2008: 1977, 2009: 1941, 2010: 2198, 2011: 2140, 2012: 2014,
+        2013: 1978, 2014: 1953, 2015: 1784, 2016: 1720, 2017: 1569,
+        2018: 1583, 2019: 1605, 2020: 1400, 2021: 1731, 2022: 1610,
+        2023: 1546, 2024: 1390,
     }
     for yr in sorted(yr_counts.index):
         actual = yr_counts[yr]

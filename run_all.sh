@@ -8,6 +8,9 @@
 #
 # Expected runtime: ~10 minutes on a laptop (the analysis layer is ~5 min).
 set -euo pipefail
+# The scripts print non-ASCII characters (≥, β, —).  On Windows, Python writes
+# redirected output in the system code page and fails on them without this.
+export PYTHONUTF8=1
 cd "$(dirname "$0")"
 ROOT=$(pwd)
 PYTHON=${PYTHON:-python3}

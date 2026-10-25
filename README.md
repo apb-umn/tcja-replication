@@ -75,6 +75,11 @@ their own position. Do not move files between folders.
 * **LaTeX** (TeX Live 2024): `datatool`, `pgfplots`, `pgfplotstable`, `siunitx`, `booktabs`, `threeparttable`,
   `natbib`, `hyperref`, `tikz`, `placeins`, `chngcntr`, `sectsty`, `setspace`, `comment`, `etoolbox`.
   Optional: without `pdflatex` the run stops after building `paper/Inputs`.
+  Update the distribution before running (`tlmgr update --self --all`, or the
+  MiKTeX Console's update tab); with an outdated one the PDF step can hang.
+* **Windows**: run `run_all.sh` from Git Bash (or WSL). The repository's
+  `.gitattributes` keeps `run_all.sh` in LF line endings, and `run_all.sh` sets
+  `PYTHONUTF8=1` so redirected Python output can print ≥, β and —.
 * **Disk**: ~1.5 GB free (your Compustat extract, the merged panel, caches).
 * **Memory**: 8 GB is enough; the largest step loads the 880 MB merged panel once.
 * **Time**: about 10 minutes end to end on a 2024 laptop with the required input only
@@ -181,7 +186,9 @@ paper always compiles.
   `\CapLocCapxPerPp` from the summary. Without the panel, one slide-only key
   (`capLoc*PreMeanPct`) is left blank.
 
-**`data/original/subsidiaries*.csv`** (WRDS SEC Analytics Suite, Exhibit 21) is read by
+**`data/original/subsidiaries*.csv`** (WRDS SEC Analytics Suite, Exhibit 21; not
+part of every institution's WRDS subscription, the University of Minnesota's
+among them) is read by
 `analysis/build_subsidiary_footprint.py` → `subsidiary_footprint_panel.csv`
 (firm-year counts of subsidiaries by country class, not shipped). It feeds the
 subsidiary-network predictors: rows 5–7 of Table B.2. Without it,
@@ -357,6 +364,7 @@ code paths are the originals.
 | `paper/Inputs/tables/build_heterogeneity_table.py` | a Table B.2 row whose predictor was not estimated is written blank instead of raising. |
 | `analysis/cash_etr_passthrough.py` | reads `comp_txpd` from the base panel when the canonical panel (`tax_reconciliation_panel_v4.csv`, not shipped) is absent. Slide A.31 only. |
 | `analysis/build_subsidiary_footprint.py` | output directory set to `data/analysis/output/` (the original wrote to `analysis/output/` and the file was moved by hand). |
+| `analysis/build_etr_figures.py`, `analysis/build_investment_elasticity.py` | validation printout only: the reference values printed next to each statistic are now the authors' run of this package (the original "expected" values predated the current panel and flagged spurious mismatches). No output file changes. |
 
 One script of the original build is not run because it needs the
 extraction-stage files: `paper/Inputs/tables/build_appendix_reconciliation.py`
@@ -368,8 +376,15 @@ extraction-stage files: `paper/Inputs/tables/build_appendix_reconciliation.py`
 
 * *`merge_compustat.py: lacks required Compustat variables`*: your WRDS export
   is missing a column; the message lists them. Column names must be lower case.
-* *Far fewer than 226,292 matched rows*: check the fiscal-year range (1995–2024)
-  and that you did not restrict the download to `fic = USA` or to one `indfmt`.
+* *Far fewer than 226,292 matched rows*: check that the WRDS query selected by
+  **fiscal year** (1995–2024), not by data date, and that you did not restrict
+  the download to `fic = USA` or to one `indfmt`.
+* *`run_all.sh: line N: $'\r': command not found`* (Windows): the script was
+  checked out with CRLF line endings by a clone made before `.gitattributes`
+  was added. Clone the repository again.
+* *`UnicodeEncodeError: 'charmap' codec can't encode character`* (Windows):
+  you are running a script outside `run_all.sh`; set `PYTHONUTF8=1` first.
+* *The PDF step hangs*: update your TeX distribution (§3).
 * *`ModuleNotFoundError`*: run the scripts from the package root (or from
   `paper/Inputs` / `paper` for the paper-layer scripts), as `run_all.sh` does;
   they import siblings by relative path.
